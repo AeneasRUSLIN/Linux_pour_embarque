@@ -1,9 +1,11 @@
 # Linux_pour_embarque
 
 >projet_1 : Calculatrice bash
+>
 Pour faire ce projet, j'ai utilisé les diapositives du cour et des forums pour écrire le code bash de la calculatrice.
 
 >projet_2 : CV html
+
 Pour ce projet, j'ai repris le code html d'un exemple de CV en ligne puis je l'ai modifié.
 
 >projet_3 : node red
