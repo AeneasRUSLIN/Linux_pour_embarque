@@ -1,0 +1,484 @@
+[
+    {
+        "id": "1997d9f786e5c62b",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "3de9e852ea3b92d0",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "0cf476d279272e0d",
+        "type": "ui_group",
+        "name": "RaspberryPi",
+        "tab": "f233bfe9e6b5f570",
+        "order": 1,
+        "disp": true,
+        "width": 12,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f233bfe9e6b5f570",
+        "type": "ui_tab",
+        "name": "Demo",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "b22cd7d3d24d341e",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#0eb8c0",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "6a3a9d40e27c5442",
+        "type": "ui_group",
+        "name": "Météo",
+        "tab": "f233bfe9e6b5f570",
+        "order": 2,
+        "disp": true,
+        "width": "4",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "1d2886ff0e4b86e4",
+        "type": "ui_group",
+        "name": "Group 3",
+        "tab": "f233bfe9e6b5f570",
+        "order": 3,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "7c1be140c1e4ec94",
+        "type": "ui_group",
+        "name": "Group 4",
+        "tab": "f233bfe9e6b5f570",
+        "order": 4,
+        "disp": true,
+        "width": 6
+    },
+    {
+        "id": "7aa9b419df0fad4c",
+        "type": "ui_spacer",
+        "z": "1997d9f786e5c62b",
+        "name": "spacer",
+        "group": "0cf476d279272e0d",
+        "order": 3,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "10b9e7fec93c195f",
+        "type": "ui_spacer",
+        "z": "1997d9f786e5c62b",
+        "name": "spacer",
+        "group": "0cf476d279272e0d",
+        "order": 4,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "56cd94be59d4ff7b",
+        "type": "ui_spacer",
+        "z": "1997d9f786e5c62b",
+        "name": "spacer",
+        "group": "0cf476d279272e0d",
+        "order": 5,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "85b478c8f80f32b7",
+        "type": "ui_spacer",
+        "z": "1997d9f786e5c62b",
+        "name": "spacer",
+        "group": "0cf476d279272e0d",
+        "order": 6,
+        "width": 1,
+        "height": 1
+    },
+    {
+        "id": "e84d18773adffd9a",
+        "type": "inject",
+        "z": "1997d9f786e5c62b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 100,
+        "y": 140,
+        "wires": [
+            [
+                "439bb479b7d323be"
+            ]
+        ]
+    },
+    {
+        "id": "20d01927594b65d6",
+        "type": "debug",
+        "z": "1997d9f786e5c62b",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 350,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "439bb479b7d323be",
+        "type": "exec",
+        "z": "1997d9f786e5c62b",
+        "command": "vcgencmd measure_temp",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "MyRaspberryPi_CPU_Temp",
+        "x": 160,
+        "y": 200,
+        "wires": [
+            [
+                "20d01927594b65d6",
+                "5373d16c39b7abc7"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "5373d16c39b7abc7",
+        "type": "change",
+        "z": "1997d9f786e5c62b",
+        "name": "Change 2 rules",
+        "rules": [
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "temp=",
+                "fromt": "str",
+                "to": "",
+                "tot": "str"
+            },
+            {
+                "t": "change",
+                "p": "payload",
+                "pt": "msg",
+                "from": "'C",
+                "fromt": "str",
+                "to": "°C",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 210,
+        "y": 320,
+        "wires": [
+            [
+                "9cc73294af616cb6",
+                "5fd05cc2e09e7276",
+                "27f7d27e7b014ca4"
+            ]
+        ]
+    },
+    {
+        "id": "9cc73294af616cb6",
+        "type": "debug",
+        "z": "1997d9f786e5c62b",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 420,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "5fd05cc2e09e7276",
+        "type": "ui_gauge",
+        "z": "1997d9f786e5c62b",
+        "name": "",
+        "group": "0cf476d279272e0d",
+        "order": 1,
+        "width": 4,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Raspberry Pi CPU Temp",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#b11b1b"
+        ],
+        "seg1": "40",
+        "seg2": "45",
+        "className": "",
+        "x": 450,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "27f7d27e7b014ca4",
+        "type": "ui_chart",
+        "z": "1997d9f786e5c62b",
+        "name": "",
+        "group": "0cf476d279272e0d",
+        "order": 2,
+        "width": 7,
+        "height": 4,
+        "label": "Température Raspberry CPU",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "70",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 250,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b6283d90518b7b9d",
+        "type": "inject",
+        "z": "3de9e852ea3b92d0",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payloadType": "date",
+        "x": 100,
+        "y": 240,
+        "wires": [
+            [
+                "7627be39bf6f80a9"
+            ]
+        ]
+    },
+    {
+        "id": "7627be39bf6f80a9",
+        "type": "openweathermap",
+        "z": "3de9e852ea3b92d0",
+        "name": "Météo à Villetaneuse",
+        "wtype": "current",
+        "lon": "",
+        "lat": "",
+        "city": "Villetaneuse",
+        "country": "France",
+        "language": "en",
+        "x": 280,
+        "y": 240,
+        "wires": [
+            [
+                "97de71dfa2a7949d",
+                "9ab836b0d0c22b78"
+            ]
+        ]
+    },
+    {
+        "id": "97de71dfa2a7949d",
+        "type": "debug",
+        "z": "3de9e852ea3b92d0",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 470,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "9ab836b0d0c22b78",
+        "type": "ui_template",
+        "z": "3de9e852ea3b92d0",
+        "group": "6a3a9d40e27c5442",
+        "name": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<h3>Météo du jour</h3>\n<p>Météo à Villetaneuse le {{msg.payload.sunrise*1000 | date:'d/M'}}</p>\n<div layout=\"column\">\n    <div layout=\"column\" style=\"padding:25px\">\n        <div layout=\"column\" layout-align=\"center center\">\n            <span style=\"color:white!important\">Température</span>\n            <div layout=\"row\" layout-align=\"start center\">\n                <i class=\"fa fa-thermometer fa-fw\"></i>\n                <p style=\"color: black\">{{msg.payload.tempc}}°C</p>\n            </div>\n        </div>    \n        <div layout=\"row\" layout-align=\"center\" style=\"padding:5px\">\n            <i style=\"color:blue\" class=\"fa fa-thermometer-empty fa-fw\" aria-hidden=\"true\"></i>\n            <span flex style=\"color: blue;font-size:15px!important\">{{msg.payload.temp_minc}}°C</span>\n    \n            <i style=\"color:red\" class=\"fa fa-thermometer-full fa-fw\" aria-hidden=\"true\"></i>\n            <span flex style=\"color: red;font-size:15px!important\">{{msg.payload.temp_maxc}}°C</span>\n        </div>\n    </div>\n\n\n</div>\n",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 370,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    }
+]
